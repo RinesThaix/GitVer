@@ -26,7 +26,7 @@ Example Configuration
     <configuration>
       <archive>
         <manifestEntries>
-          <Implementation-Version>${describe}</Implementation-Version>
+          <Implementation-Version>${gitcommitid}-${gitcommitdate}</Implementation-Version>
         </manifestEntries>
       </archive>
     </configuration>
